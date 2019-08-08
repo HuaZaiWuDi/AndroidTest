@@ -1,0 +1,2 @@
+com/wesmarclothing/jniproject/App.class
+com/wesmarclothing/jniproject/Util.class

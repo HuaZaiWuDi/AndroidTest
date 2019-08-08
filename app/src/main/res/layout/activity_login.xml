@@ -1,0 +1,60 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:bind="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/tools">
+    <data>
+        <variable name="viewModel" type="com.wesmarclothing.jniproject.mvvm.LoginViewModel"/>
+        <variable name="testJson" type="com.wesmarclothing.jniproject.TestJson"/>
+        <variable name="adapter" type="com.chad.library.adapter.base.BaseQuickAdapter"/>
+        <variable name="list" type="androidx.databinding.ObservableArrayList&lt;String&gt;"/>
+    </data>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <Button
+                android:onClick="@{()->viewModel.changedText()}"
+                android:id="@+id/text"
+                android:text="@{viewModel.name}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <Button
+                android:onClick="@{()->viewModel.changedJson()}"
+                bind:text="@{testJson.age}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <Button
+                bind:toggleGone="@{viewModel.toggleGone}"
+                android:text="@{testJson.athlDesc}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <Button
+                android:id="@+id/btn_changed"
+                android:text="@{list.get(0)}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv"
+                android:adapter="@{adapter}"
+                bind:rv_onItemClick="@{(adapter,view,position)->viewModel.itemClick(adapter,view,position)}"
+                bind:layoutManager="LinearLayoutManager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:id="@+id/tv_test"/>
+
+
+        <FrameLayout
+                android:id="@+id/fl_Fragment"
+                android:layout_width="300dp" android:layout_height="300dp"/>
+
+    </LinearLayout>
+</layout>

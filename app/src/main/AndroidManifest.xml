@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.wesmarclothing.jniproject">
+
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/> <!-- 用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="ANDROID.PERMISSION.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <uses-feature android:name="android.hardware.camera.front"/>
+    <uses-feature android:name="android.hardware.camera.front.autofocus"/>
+
+    <application
+            android:name=".App"
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:networkSecurityConfig="@xml/http_config"
+            android:roundIcon="@mipmap/ic_launcher"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".mvvm.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <service
+                android:name=".plugin.ProxyService"
+                android:enabled="true"
+                android:exported="true">
+        </service>
+
+        <activity android:name=".SimpleActivity">
+
+        </activity>
+        <activity
+                android:name=".plugin.ProxyActivity"
+                android:launchMode="standard">
+        </activity>
+        <activity android:name=".JniActivity">
+        </activity>
+        <activity android:name=".AspectJTestActivity">
+        </activity>
+        <activity android:name=".MainActivity">
+        </activity> <!-- DUF服务 -->
+        <activity android:name=".dfu.NotificationActivity"/>
+        <activity android:name=".mvvm.Login2Activity"/>
+
+        <service
+                android:name=".dfu.DfuService"
+                android:exported="true"/>
+    </application>
+
+</manifest>
