@@ -3,6 +3,7 @@ package com.wesmarclothing.jniproject
 import android.content.Context
 import android.os.Bundle
 import android.os.Environment
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.meituan.robust.Patch
 import com.meituan.robust.PatchExecutor
@@ -12,9 +13,9 @@ import com.meituan.robust.patch.annotaion.Modify
 import com.wesmarclothing.jniproject.hotfix.HotFixManager
 import com.wesmarclothing.jniproject.robust.PatchManipulateImp
 import com.wesmarclothing.jniproject.utils.FileUtils
-import com.wesmarclothing.kotlintools.kotlin.d
-import com.wesmarclothing.kotlintools.kotlin.isDebug
-import com.wesmarclothing.kotlintools.kotlin.toast
+import com.wesmarclothing.kotlintools.kotlin.utils.d
+import com.wesmarclothing.kotlintools.kotlin.utils.isDebug
+import com.wesmarclothing.kotlintools.kotlin.utils.toast
 import kotlinx.android.synthetic.main.activity_simple.*
 import java.io.File
 
@@ -147,5 +148,40 @@ class SimpleActivity : AppCompatActivity() {
         val name: String = "addClass"
     }
 
+
+    fun test() {
+        crash.setOnClickListener {
+
+        }
+
+        mapOf("2" to 2, "3" to 3, "4" to 4)
+
+        "2" == "3"
+
+        2 - 3
+
+        val of = listOf(1, 2, 3, 4)
+
+        1 into of
+
+    }
+
+    infix fun <T> T.into(other: Collection<T>): Boolean = other.contains(this)
+
+
+    private fun clickView(view: View) {
+        when (view) {
+            crash -> {
+
+            }
+        }
+    }
+
+
+    fun <V : View> View.viewClick(action: (View) -> Unit) {
+        this.setOnClickListener {
+            action(it)
+        }
+    }
 
 }

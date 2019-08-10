@@ -5,8 +5,8 @@ import android.content.Intent
 import android.content.res.AssetManager
 import android.content.res.Resources
 import android.os.Bundle
-import com.wesmarclothing.kotlintools.kotlin.d
-import com.wesmarclothing.kotlintools.kotlin.e
+import com.wesmarclothing.kotlintools.kotlin.utils.d
+import com.wesmarclothing.kotlintools.kotlin.utils.e
 import com.wesmarclothing.lib_plugin.PluginInterface
 
 

@@ -16,8 +16,8 @@ import com.clj.fastble.data.BleDevice
 import com.clj.fastble.exception.BleException
 import com.clj.fastble.scan.BleScanRuleConfig
 import com.wesmarclothing.jniproject.dfu.DfuService
-import com.wesmarclothing.kotlintools.kotlin.d
-import com.wesmarclothing.kotlintools.kotlin.e
+import com.wesmarclothing.kotlintools.kotlin.utils.d
+import com.wesmarclothing.kotlintools.kotlin.utils.e
 import kotlinx.android.synthetic.main.activity_main.*
 import no.nordicsemi.android.dfu.DfuProgressListenerAdapter
 import no.nordicsemi.android.dfu.DfuServiceInitiator

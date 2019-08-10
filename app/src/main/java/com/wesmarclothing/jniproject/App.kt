@@ -5,8 +5,9 @@ import android.app.Application
 import android.os.Bundle
 import androidx.multidex.MultiDexApplication
 import com.github.moduth.blockcanary.BlockCanary
+import com.kongzue.dialog.v2.DialogSettings
 import com.wesmarclothing.jniproject.blockcanary.AppBlockCanaryContext
-import com.wesmarclothing.kotlintools.kotlin.isDebug
+import com.wesmarclothing.kotlintools.kotlin.utils.isDebug
 import java.util.*
 
 /**
@@ -29,6 +30,7 @@ class App : MultiDexApplication() {
     override fun onCreate() {
         super.onCreate()
         isDebug = true
+        DialogSettings.use_blur=false
         mApp = this
         store = Stack()
         initActivityCallback()

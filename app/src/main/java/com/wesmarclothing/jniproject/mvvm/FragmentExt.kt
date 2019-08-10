@@ -3,7 +3,7 @@ package com.wesmarclothing.jniproject.mvvm
 import android.os.Handler
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
-import com.wesmarclothing.kotlintools.kotlin.toBundle
+import com.wesmarclothing.kotlintools.kotlin.utils.toBundle
 
 /**
  * Description: Fragment相关扩展

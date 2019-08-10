@@ -4,7 +4,7 @@ import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterF
 import com.jakewharton.retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import com.wesmarclothing.jniproject.BuildConfig
 import com.wesmarclothing.jniproject.utils.Logger
-import com.wesmarclothing.kotlintools.kotlin.i
+import com.wesmarclothing.kotlintools.kotlin.utils.i
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit

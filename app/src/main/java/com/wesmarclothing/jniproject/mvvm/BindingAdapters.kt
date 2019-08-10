@@ -6,8 +6,8 @@ import android.widget.TextView
 import androidx.databinding.BindingAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.chad.library.adapter.base.BaseQuickAdapter
-import com.wesmarclothing.kotlintools.kotlin.d
-import com.wesmarclothing.kotlintools.kotlin.load
+import com.wesmarclothing.kotlintools.kotlin.utils.d
+import com.wesmarclothing.kotlintools.kotlin.utils.load
 
 
 /**

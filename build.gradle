@@ -16,6 +16,9 @@ buildscript {
         classpath 'com.hujiang.aspectjx:gradle-android-plugin-aspectjx:2.0.0'
         classpath 'com.meituan.robust:gradle-plugin:0.4.90'
         classpath 'com.meituan.robust:auto-patch-plugin:0.4.90'
+
+        //360加固插件
+        classpath 'com.s.android.plugin:jiaguplugin:latest.release'
     }
 }
 

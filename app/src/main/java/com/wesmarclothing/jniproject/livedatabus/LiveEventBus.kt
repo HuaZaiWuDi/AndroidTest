@@ -7,9 +7,9 @@ import androidx.lifecycle.ExternalLiveData
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.Observer
-import com.jeremyliao.liveeventbus.utils.ThreadUtils.isMainThread
 import com.wesmarclothing.jniproject.livedatabus.LiveEventBus.ObserverWrapper
-import com.wesmarclothing.kotlintools.kotlin.d
+import com.wesmarclothing.kotlintools.kotlin.utils.d
+import com.wesmarclothing.kotlintools.kotlin.utils.isMainThread
 import java.util.*
 import kotlin.reflect.KClass
 

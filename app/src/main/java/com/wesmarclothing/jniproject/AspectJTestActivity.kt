@@ -10,7 +10,7 @@ import com.wesmarclothing.jniproject.plugin.PluginManager
 import com.wesmarclothing.jniproject.plugin.ProxyActivity
 import com.wesmarclothing.jniproject.plugin.ProxyService
 import com.wesmarclothing.jniproject.simple.ItemListDialogFragment
-import com.wesmarclothing.kotlintools.kotlin.*
+import com.wesmarclothing.kotlintools.kotlin.utils.*
 import java.io.File
 import java.io.FileOutputStream
 import java.io.InputStream

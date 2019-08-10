@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModelProviders
 import com.wesmarclothing.ems.base.BaseViewModel
 import com.wesmarclothing.ems.base.StateConstants
 import com.wesmarclothing.jniproject.utils.TUtil
-import com.wesmarclothing.kotlintools.kotlin.e
+import com.wesmarclothing.kotlintools.kotlin.utils.e
 
 /**
  * Created by luyao

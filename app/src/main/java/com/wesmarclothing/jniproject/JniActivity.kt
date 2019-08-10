@@ -9,6 +9,7 @@ import android.os.Bundle
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
 import com.wesmarclothing.kotlintools.kotlin.*
+import com.wesmarclothing.kotlintools.kotlin.utils.*
 import kotlinx.android.synthetic.main.activity_jni.*
 import no.nordicsemi.android.ble.BleManager
 import no.nordicsemi.android.ble.BleManagerCallbacks

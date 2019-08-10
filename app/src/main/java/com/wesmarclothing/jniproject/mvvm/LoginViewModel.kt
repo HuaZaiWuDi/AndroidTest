@@ -5,9 +5,8 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.alibaba.fastjson.JSON
 import com.chad.library.adapter.base.BaseQuickAdapter
-import com.jeremyliao.liveeventbus.LiveEventBus
 import com.wesmarclothing.jniproject.TestJson
-import com.wesmarclothing.kotlintools.kotlin.d
+import com.wesmarclothing.kotlintools.kotlin.utils.d
 
 /**
  * @Package com.wesmarclothing.jniproject.mvvm
@@ -79,7 +78,6 @@ class LoginViewModel : ViewModel() {
         position.d()
 //        Toast.makeText(App.mApp, "$position", Toast.LENGTH_SHORT).show()
 
-        LiveEventBus.get().with("ItemClick").post(Item(position))
     }
 
 

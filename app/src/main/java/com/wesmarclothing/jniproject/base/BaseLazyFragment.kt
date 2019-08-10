@@ -10,8 +10,8 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.vondear.rxtools.view.state.PageLayout
 import com.wesmarclothing.jniproject.utils.TUtil
-import com.wesmarclothing.kotlintools.kotlin.d
-import com.wesmarclothing.kotlintools.kotlin.e
+import com.wesmarclothing.kotlintools.kotlin.utils.d
+import com.wesmarclothing.kotlintools.kotlin.utils.e
 
 /**
  * Created by luyao

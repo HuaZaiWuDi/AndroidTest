@@ -2,8 +2,8 @@ package com.wesmarclothing.jniproject.hotfix
 
 import android.content.Context
 import com.wesmarclothing.jniproject.utils.FileUtils
-import com.wesmarclothing.kotlintools.kotlin.d
-import com.wesmarclothing.kotlintools.kotlin.e
+import com.wesmarclothing.kotlintools.kotlin.utils.d
+import com.wesmarclothing.kotlintools.kotlin.utils.e
 import dalvik.system.DexClassLoader
 import dalvik.system.PathClassLoader
 import java.io.File

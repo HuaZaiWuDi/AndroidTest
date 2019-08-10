@@ -25,7 +25,7 @@ import com.wesmarclothing.jniproject.databinding.ActivityLoginBinding
 import com.wesmarclothing.jniproject.databinding.ItemBinding
 import com.wesmarclothing.jniproject.livedatabus.LiveEventBus
 import com.wesmarclothing.jniproject.onRequestPermissionsListener
-import com.wesmarclothing.kotlintools.kotlin.d
+import com.wesmarclothing.kotlintools.kotlin.utils.d
 import kotlinx.android.synthetic.main.activity_login.*
 
 

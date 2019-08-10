@@ -1,12 +1,7 @@
 package com.wesmarclothing.jniproject
 
 import android.content.Context
-import androidx.lifecycle.Lifecycle
-import androidx.lifecycle.LifecycleObserver
-import androidx.lifecycle.LifecycleOwner
-import androidx.lifecycle.OnLifecycleEvent
-import com.wesmarclothing.kotlintools.kotlin.d
-import kotlinx.coroutines.*
+import com.wesmarclothing.kotlintools.kotlin.utils.d
 import java.util.*
 
 /**
