@@ -1,6 +1,9 @@
 package com.wesmarclothing.jniproject
 
 import androidx.test.runner.AndroidJUnit4
+import com.wesmarclothing.kotlintools.kotlin.utils.async
+import com.wesmarclothing.kotlintools.kotlin.utils.d
+import com.wesmarclothing.kotlintools.kotlin.utils.main
 import org.junit.runner.RunWith
 import org.junit.Rule
 import org.junit.Test
@@ -17,12 +20,10 @@ import org.junit.Test
 @RunWith(AndroidJUnit4::class)
 class ExampleUnitTestTest {
 
-    @Rule
-    var mTestRule = ActivityTestRule<MainActivity>()
 
     @Test
     fun test(){
-        mTestRule
+
 
     }
 

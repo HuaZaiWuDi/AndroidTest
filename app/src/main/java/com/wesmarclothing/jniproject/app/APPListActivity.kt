@@ -36,6 +36,7 @@ class APPListActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_applist)
 
+
         initView()
         initData(false)
     }

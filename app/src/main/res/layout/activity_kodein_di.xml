@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".kodeinDi.KodeinDiActivity">
+
+
+    <com.wesmarclothing.jniproject.vorolay.VoronoiView
+            android:visibility="gone"
+            android:id="@+id/voronoi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="50dp"
+            app:voronoi_border_color="@color/white"
+            app:voronoi_border_round="false"
+            app:voronoi_show_border="false"
+            app:voronoi_generation_type="ordered"
+            app:voronoi_border_width="20"
+    />
+
+
+    <ImageView
+            android:id="@+id/iv"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+    <com.manolovn.trianglify.TrianglifyView
+            android:visibility="gone"
+            android:id="@+id/trianglify_view_sample"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cellSize="175"
+            app:variance="75"
+            app:bleedX="50"
+            app:bleedY="50"
+            app:colorGenerator="com.manolovn.trianglify.generator.color.RandomColorGenerator"
+            app:pointGenerator="com.manolovn.trianglify.generator.point.RegularPointGenerator"
+    />
+
+
+</FrameLayout>

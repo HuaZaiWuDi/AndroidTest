@@ -19,6 +19,9 @@ buildscript {
 
         //360加固插件
         classpath 'com.s.android.plugin:jiaguplugin:latest.release'
+        //美团walle多渠道
+        classpath 'com.meituan.android.walle:plugin:1.1.6'
+
     }
 }
 

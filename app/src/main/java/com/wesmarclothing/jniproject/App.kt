@@ -30,7 +30,7 @@ class App : MultiDexApplication() {
     override fun onCreate() {
         super.onCreate()
         isDebug = true
-        DialogSettings.use_blur=false
+        DialogSettings.use_blur = false
         mApp = this
         store = Stack()
         initActivityCallback()

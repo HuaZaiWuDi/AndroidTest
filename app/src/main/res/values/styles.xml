@@ -11,13 +11,28 @@
     <declare-styleable name="CvCameraPreview">
 
         <attr name="camera_type" format="integer">
-            <enum name="back" value="99" />
-            <enum name="front" value="98" />
+            <enum name="back" value="99"/>
+            <enum name="front" value="98"/>
         </attr>
 
         <attr name="scale_type" format="integer">
-            <enum name="fit" value="1" />
-            <enum name="full" value="2" />
+            <enum name="fit" value="1"/>
+            <enum name="full" value="2"/>
+        </attr>
+
+    </declare-styleable>
+
+
+    <declare-styleable name="VoronoiView">
+        <attr name="voronoi_show_border" format="boolean"/>
+        <attr name="voronoi_border_color" format="color"/>
+        <attr name="voronoi_border_width" format="float"/>
+        <attr name="voronoi_border_round" format="boolean"/>
+
+        <attr name="voronoi_generation_type">
+            <enum name="random" value="1"/>
+            <enum name="ordered" value="2"/>
+            <enum name="custom" value="3"/>
         </attr>
 
     </declare-styleable>

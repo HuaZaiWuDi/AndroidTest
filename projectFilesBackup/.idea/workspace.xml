@@ -1,0 +1,1424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="KotlinTools" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+    <option name="LOGCAT_FORMAT_STRING" value="%4$c/%5$s: %6$s" />
+  </component>
+  <component name="AvailableLibraryUpdateStorage">
+    <library-updates>
+      <library-update>
+        <group-id>androidx.test</group-id>
+        <name>runner</name>
+        <version>1.3.0-alpha02</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>no.nordicsemi.android</group-id>
+        <name>dfu</name>
+        <version>1.9.0</version>
+        <repository>Maven Central</repository>
+      </library-update>
+      <library-update>
+        <group-id>no.nordicsemi.android</group-id>
+        <name>ble</name>
+        <version>2.1.1</version>
+        <repository>Maven Central</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.test.espresso</group-id>
+        <name>espresso-core</name>
+        <version>3.3.0-alpha02</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.legacy</group-id>
+        <name>legacy-support-v4</name>
+        <version>1.0.0</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.recyclerview</group-id>
+        <name>recyclerview</name>
+        <version>1.1.0-beta02</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.alibaba</group-id>
+        <name>fastjson</name>
+        <version>1.2.59</version>
+        <repository>JCenter,Maven Central</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.lifecycle</group-id>
+        <name>lifecycle-extensions</name>
+        <version>2.2.0-alpha03</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.android.material</group-id>
+        <name>material</name>
+        <version>1.1.0-alpha09</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.constraintlayout</group-id>
+        <name>constraintlayout</name>
+        <version>2.0.0-beta2</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.viewpager2</group-id>
+        <name>viewpager2</name>
+        <version>1.0.0-beta03</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.github.markzhai</group-id>
+        <name>blockcanary-android</name>
+        <version>1.5.0</version>
+        <repository>JCenter,Maven Central</repository>
+      </library-update>
+      <library-update>
+        <group-id>no.nordicsemi.android.support.v18</group-id>
+        <name>scanner</name>
+        <version>1.4.2</version>
+        <repository>Maven Central</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.appcompat</group-id>
+        <name>appcompat</name>
+        <version>1.1.0-rc01</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>org.jetbrains.kotlin</group-id>
+        <name>kotlin-stdlib-jdk8</name>
+        <version>1.3.41</version>
+        <repository>JCenter,Maven Central</repository>
+      </library-update>
+    </library-updates>
+    <last-search-timestamp>1565317031727</last-search-timestamp>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8f2ccaae-61cc-46bf-8cf5-a2226567e6c2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/channel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/wesmarclothing/jniproject/ExampleUnitTestTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/wesmarclothing/jniproject/ExampleUnitTestTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/SimpleActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/SimpleActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/app/APPListActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/app/APPListActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/wesmarclothing/jniproject/ExampleUnitTestTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/wesmarclothing/jniproject/ExampleUnitTestTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/lib_targetapk">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="JNIProject" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="JNIProject" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="JNIProject" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="JNIProject" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="JNIProject" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="package" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/app/APPListActivity.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="42" selection-start-line="42" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/test/java/com/wesmarclothing/jniproject/ExampleUnitTestTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="205" lean-forward="true" selection-start-line="205" selection-end-line="205" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/SimpleActivity.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="553">
+              <caret line="195" lean-forward="true" selection-start-line="195" selection-end-line="195" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/gradle/gradle-4.4/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.40/682cd7821872d1a3c1e8a3e6bdaabd17f2b71004/kotlin-stdlib-common-1.3.40-sources.jar!/generated/_Collections.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="671" column="34" selection-start-line="671" selection-start-column="34" selection-end-line="671" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/gradle/gradle-4.4/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.41/785575d6b699a02527a4ad16f0972fa2c1ee583f/kotlin-stdlib-1.3.41-sources.jar!/kotlin/io/Console.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="463">
+              <caret line="78" column="25" selection-start-line="78" selection-start-column="25" selection-end-line="78" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/wesmarclothing/jniproject/ExampleUnitTestTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/gradle/gradle-4.4/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.41/785575d6b699a02527a4ad16f0972fa2c1ee583f/kotlin-stdlib-1.3.41-sources.jar!/kotlin/Boolean.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/gradle/gradle-4.4/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.40/7af6fd6b9293e80fc7408493a764858a7f66b022/kotlin-stdlib-1.3.40-sources.jar!/kotlin/internal/PlatformImplementations.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/gradle/gradle-4.4/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.41/785575d6b699a02527a4ad16f0972fa2c1ee583f/kotlin-stdlib-1.3.41-sources.jar!/kotlin/Collections.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="134" column="17" selection-start-line="134" selection-start-column="17" selection-end-line="134" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="valueResourceFile" />
+        <option value="Singleton" />
+        <option value="Builder" />
+        <option value="Kotlin Object" />
+        <option value="Kotlin Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+        <option value="Kotlin File" />
+        <option value="JUnit4 Test Class" />
+        <option value="layoutResourceFile_vertical" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>bind:layoutManager</find>
+      <find>onItemClick</find>
+      <find>itemClick</find>
+      <find>onRefreshListener</find>
+      <find>item</find>
+      <find>Listener</find>
+      <find>InverseBindingMethods</find>
+      <find>mObservers</find>
+      <find>mAdapter</find>
+      <find>setAdapter</find>
+      <find>bus</find>
+      <find>Manifest.permission.READ_EXTERNAL_STORAGE</find>
+      <find>RequiresPermission</find>
+      <find>TouchEvent</find>
+      <find>dispatchTouchEvent</find>
+      <find>DoraemonKit</find>
+      <find>loop</find>
+      <find>dispatchMessage</find>
+      <find>mError</find>
+      <find>mHidden</find>
+      <find>max</find>
+      <find>mUserVisibleHint</find>
+      <find>Deprecated</find>
+      <find>compile</find>
+      <find>setUser</find>
+      <find>signatureMD5</find>
+      <find>getAppSignature</find>
+      <find>AppInfo</find>
+      <find>Observer</find>
+      <find>removeObservers</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>appText</replace>
+    </replaceStrings>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="D:\Android\zskj.jks" />
+    <option name="KEY_ALIAS" value="zskj" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/mvvm/LiveEventBus2.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/mvvm/LiveEventBus.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/mvvm/Login2Activity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/mvvm/HtmlParser.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/mvvm/CustomerTagHandler_1.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/mvvm/CustomerTagHandler.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/mvvm/TextHtml.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/RxPermissionsUtils.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/Arith.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/Util.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/TUtil.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/DiskLruCache.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/base/BaseNormalActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/base/BaseNormalFragment.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/blockcanary/AppBlockCanaryContext.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/test/Caluater.kt" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/wesmarclothing/jniproject/ExampleInstrumentedTest.kt" />
+        <option value="$PROJECT_DIR$/app/src/test/java/com/wesmarclothing/jniproject/ExampleUnitTest.kt" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/wesmarclothing/jniproject/ExampleUnitTestTest.java" />
+        <option value="$PROJECT_DIR$/app/src/test/java/com/wesmarclothing/jniproject/ExampleUnitTestTest.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/aop/PermissionAspect.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/plugin/ProxyService.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/JniActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/AspectJTestActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/hotfix/HotFixManager.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/mvvm/LoginActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/mvvm/FragmentExt.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/mvvm/BindingAdapters.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/plugin/ProxyActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/JinTest.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/MainActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/base/BaseActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/base/BaseLazyFragment.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/base/BaseViewModel.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/plugin/PluginManager.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/base/BaseRetrofitClient.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_applist.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/livedatabus/LiveEventBus.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/mvvm/LoginViewModel.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/App.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_appinfo.xml" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/wesmarclothing/jniproject/ExampleUnitTestTest.kt" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/channel" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/app/APPListActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/test/java/com/wesmarclothing/jniproject/ExampleUnitTestTest.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/SimpleActivity.kt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="80" />
+    <option name="y" value="-8" />
+    <option name="width" value="1848" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <hideEmptyPackages ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JNIProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JNIProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="JNIProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JNIProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="JNIProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JNIProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JNIProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JNIProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="androidTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JNIProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JNIProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="androidTest" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JNIProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JNIProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="androidTest" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jniproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JNIProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JNIProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JNIProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JNIProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JNIProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JNIProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jniproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JNIProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JNIProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jniproject" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JNIProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JNIProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jniproject" type="462c0819:PsiDirectoryNode" />
+              <item name="mvvm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JNIProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JNIProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JNIProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JNIProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JNIProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JNIProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jniproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JNIProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JNIProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JNIProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JNIProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JNIProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExportApk.ApkPath" value="D:\Android\work_Jack\JNIProject\app" />
+    <property name="ExportApk.BuildVariants" value="debug&#10;release" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
+    <property name="android.sdk.path" value="$PROJECT_DIR$/../../sdk" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="device.picker.selection" value="SJE5T17311000001" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/test/java/com/wesmarclothing/jniproject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../zskj.jks" />
+    <property name="not.eligible.for.single.variant.sync" value="true" />
+    <property name="project.structure.last.edited" value="Build Variants" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Signing Configs" />
+    <option name="BUILD_VARIANTS_TAB" value="Flavors" />
+    <option name="LAST_EDITED_SIGNING_CONFIG" value="debug" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.wesmarclothing.jniproject.livedatabus" />
+      <recent name="com.wesmarclothing.lib_plugin" />
+    </key>
+    <key name="android.template.parentActivityClass">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.wesmarclothing.jniproject" />
+    </key>
+    <key name="android.template.packageName">
+      <recent name="com.wesmarclothing.jniproject.app" />
+      <recent name="com.wesmarclothing.jniproject.mvvm" />
+      <recent name="com.wesmarclothing.jniproject.simple" />
+      <recent name="com.wesmarclothing.jniproject" />
+      <recent name="com.wesmarclothing.lib_targetapk" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.wesmarclothing.jniproject.mvvm" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.wesmarclothing.lib_targetapk" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Android\work_Jack\JNIProject\app\src\main\java\com\wesmarclothing\jniproject\mvvm" />
+      <recent name="D:\Android\work_Jack\JNIProject\app\src\main\java\com\wesmarclothing\jniproject\base" />
+      <recent name="D:\Android\work_Jack\JNIProject\app\src\main\res" />
+      <recent name="D:\Android\work_Jack\JNIProject\app\robust" />
+      <recent name="D:\Android\work_Jack\JNIProject\lib_targetapk\src\main\res" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wesmarclothing.jniproject" />
+      <recent name="com.wesmarclothing.jniproject.aop" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Android\work_Jack\JNIProject\app" />
+      <recent name="D:\Android\work_Jack\JNIProject\app\src\main\res\raw" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ExampleUnitTestTest.boolean">
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lib_targetapk" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="lib_targetapk" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JNIProject [assembleDebugChannels]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assembleDebugChannels" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="JNIProject:app [assembleDebugChannels]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assembleDebugChannels" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="JNIProject:app [assembleReleaseChannels]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assembleReleaseChannels" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="JNIProject:app [assemble]" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assemble" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ExampleUnitTestTest.boolean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wesmarclothing.jniproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wesmarclothing.jniproject" />
+      <option name="MAIN_CLASS_NAME" value="com.wesmarclothing.jniproject.ExampleUnitTestTest" />
+      <option name="METHOD_NAME" value="boolean" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExampleUnitTestTest.scope" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wesmarclothing.jniproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wesmarclothing.jniproject" />
+      <option name="MAIN_CLASS_NAME" value="com.wesmarclothing.jniproject.ExampleUnitTestTest" />
+      <option name="METHOD_NAME" value="scope" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ExampleUnitTestTest.boolean" />
+        <item itemvalue="JUnit.ExampleUnitTestTest.scope" />
+        <item itemvalue="Gradle.JNIProject:app [assembleReleaseChannels]" />
+        <item itemvalue="Gradle.JNIProject:app [assembleDebugChannels]" />
+        <item itemvalue="Gradle.JNIProject [assembleDebugChannels]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f2ccaae-61cc-46bf-8cf5-a2226567e6c2" name="Default Changelist" comment="" />
+      <created>1557114658280</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557114658280</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ExampleUnitTestTest_addition_isCorrect - 2019.08.08 at 17h 49m 22s.xml">
+      <configuration name="ExampleUnitTestTest.addition_isCorrect" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="ExampleUnitTestTest_addition_isCorrect - 2019.08.08 at 17h 49m 36s.xml">
+      <configuration name="ExampleUnitTestTest.addition_isCorrect" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="ExampleUnitTestTest_addition_isCorrect - 2019.08.08 at 17h 49m 53s.xml">
+      <configuration name="ExampleUnitTestTest.addition_isCorrect" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="ExampleUnitTestTest_addition_isCorrect - 2019.08.08 at 17h 50m 25s.xml">
+      <configuration name="ExampleUnitTestTest.addition_isCorrect" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="ExampleUnitTestTest_addition_isCorrect - 2019.08.08 at 17h 50m 42s.xml">
+      <configuration name="ExampleUnitTestTest.addition_isCorrect" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="ExampleUnitTestTest_addition_isCorrect - 2019.08.09 at 17h 06m 19s.xml">
+      <configuration name="ExampleUnitTestTest.addition_isCorrect" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="ExampleUnitTestTest_scope - 2019.08.12 at 15h 34m 14s.xml">
+      <configuration name="ExampleUnitTestTest.scope" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExampleUnitTestTest_boolean - 2019.08.12 at 17h 07m 03s.xml">
+      <configuration name="ExampleUnitTestTest.boolean" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExampleUnitTestTest_boolean - 2019.08.12 at 17h 08m 46s.xml">
+      <configuration name="ExampleUnitTestTest.boolean" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExampleUnitTestTest_boolean - 2019.08.12 at 17h 20m 31s.xml">
+      <configuration name="ExampleUnitTestTest.boolean" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="80" y="-8" width="1848" height="1096" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.20693512" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Resources Explorer" order="6" weight="0.32997763" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="0" weight="0.41744548" />
+      <window_info anchor="bottom" x="-1920" y="22" width="1920" height="1058" id="Logcat" maximized="true" order="1" type="WINDOWED" visible="true" />
+      <window_info anchor="bottom" id="TODO" order="2" sideWeight="0.49972022" weight="0.32917964" />
+      <window_info anchor="bottom" id="Android Profiler" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.54875517" />
+      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.49916062" weight="0.33021808" />
+      <window_info anchor="bottom" id="Flutter Performance" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49972022" weight="0.32917964" />
+      <window_info anchor="bottom" id="Build" order="8" sideWeight="0.5775042" weight="0.4423676" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32987553" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.32987553" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.4230554" side_tool="true" weight="0.4423676" />
+      <window_info anchor="right" id="Codota" order="0" />
+      <window_info anchor="right" id="Device File Explorer" order="1" sideWeight="0.88390094" side_tool="true" weight="0.32997763" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Gradle" order="3" sideWeight="0.116099074" weight="0.31543624" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Flutter Inspector" order="5" />
+      <window_info anchor="right" id="Android WiFi ADB" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Preview" order="8" weight="0.3290431" />
+      <window_info anchor="right" id="Flutter Outline" order="9" weight="0.32995737" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.30928412" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="0" weight="0.32987553" />
+      <window_info anchor="bottom" id="Run" order="1" weight="0.32987553" />
+      <window_info anchor="bottom" x="-1920" y="22" width="1920" height="1058" id="Logcat" order="2" type="WINDOWED" visible="true" />
+      <window_info anchor="bottom" id="TODO" order="3" />
+      <window_info anchor="bottom" id="Android Profiler" order="4" />
+      <window_info anchor="bottom" id="Debug" order="5" />
+      <window_info anchor="bottom" id="Terminal" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Flutter Performance" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info active="true" anchor="bottom" id="Build" order="10" visible="true" weight="0.26244813" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32987553" />
+      <window_info anchor="right" id="Codota" order="0" />
+      <window_info anchor="right" id="Device File Explorer" order="1" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.32997763" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Flutter Inspector" order="5" />
+      <window_info anchor="right" id="Android WiFi ADB" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Preview" order="8" weight="0.32997763" />
+      <window_info anchor="right" id="Flutter Outline" order="9" weight="0.32997763" />
+    </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$APPLICATION_HOME_DIR$/gradle/gradle-4.4/caches/modules-2/files-2.1/com.jeremyliao/live-event-bus-x/1.4.4/9dbc25f0f1da9c7c19e1d5751b54a1633064ee4c/live-event-bus-x-1.4.4-sources.jar!/com/jeremyliao/liveeventbus/LiveEventBus.java</url>
+          <line>272</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$APPLICATION_HOME_DIR$/gradle/gradle-4.4/caches/modules-2/files-2.1/com.jeremyliao/live-event-bus-x/1.4.4/9dbc25f0f1da9c7c19e1d5751b54a1633064ee4c/live-event-bus-x-1.4.4-sources.jar!/com/jeremyliao/liveeventbus/LiveEventBus.java</url>
+          <line>355</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/mvvm/LoginViewModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1776">
+          <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/gradle/gradle-4.4/caches/transforms-2/files-2.1/164e62aacae817eeddbeee3e7cbc27fe/jars/classes.jar!/com/vondear/rxtools/utils/RxClipboardUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/gradle/gradle-4.4/caches/transforms-2/files-2.1/355a2a3ccc2c1e2c2fb7d2a5c9434105/jars/classes.jar!/com/wesmarclothing/kotlintools/kotlin/utils/AsyncKt.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_appinfo.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/gradle/gradle-4.4/caches/modules-2/files-2.1/com.kongzue.dialog/dialog/2.4.8/a6c05545a80ba7847921228bdeb86724f602a8a2/dialog-2.4.8-sources.jar!/com/kongzue/dialog/v2/MessageDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="59" column="32" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/gradle/gradle-4.4/caches/transforms-2/files-2.1/f395d787023064da01f99e97ffd8d1fd/jars/classes.jar!/com/google/android/material/tabs/TabLayout.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="1765" column="24" selection-start-line="1765" selection-start-column="24" selection-end-line="1765" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/gradle/gradle-4.4/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0-beta01/d898001f8cf8d02ebbdf7d5f48a787deefae2be3/recyclerview-1.1.0-beta01-sources.jar!/androidx/recyclerview/widget/RecyclerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-840">
+          <caret line="10672" column="33" selection-start-line="10672" selection-start-column="33" selection-end-line="10672" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/gradle/gradle-4.4/caches/transforms-2/files-2.1/164e62aacae817eeddbeee3e7cbc27fe/jars/classes.jar!/com/vondear/rxtools/utils/RxAppUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding>
+            <element signature="e#17025#17026#0" expanded="true" />
+            <element signature="e#17067#17068#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/mvvm/Login2Activity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/gradle/gradle-4.4/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0-beta01/d898001f8cf8d02ebbdf7d5f48a787deefae2be3/recyclerview-1.1.0-beta01-sources.jar!/androidx/recyclerview/widget/DividerItemDecoration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="865">
+          <caret line="65" column="11" selection-start-line="65" selection-start-column="11" selection-end-line="65" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_applist.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="36" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/wesmarclothing/jniproject/ExampleUnitTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/gradle/gradle-4.4/caches/transforms-2/files-2.1/328662c0261f852fcac2e20aa8e6c5e7/jars/classes.jar!/com/wesmarclothing/kotlintools/kotlin/utils/LogExtKt.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/gradle/gradle-4.4/caches/transforms-2/files-2.1/328662c0261f852fcac2e20aa8e6c5e7/jars/classes.jar!/com/wesmarclothing/kotlintools/kotlin/utils/AsyncKt.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/gradle/gradle-4.4/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.1.0-rc01/f6bc38aa5491626af5fb3b516b5c51c348ff2211/appcompat-1.1.0-rc01-sources.jar!/androidx/appcompat/app/AppCompatActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5960">
+          <caret line="75" column="11" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
+          <folding>
+            <element signature="e#2924#2925#0" expanded="true" />
+            <element signature="e#2947#2948#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/gradle/gradle-4.4/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata/2.2.0-alpha02/9849dd6833f7e999169e4f9d48949cc92bf58b50/lifecycle-livedata-2.2.0-alpha02-sources.jar!/androidx/lifecycle/MediatorLiveData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+          <folding>
+            <element signature="e#5187#5188#0" expanded="true" />
+            <element signature="e#5241#5242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/gradle/gradle-4.4/caches/modules-2/files-2.1/com.meituan.android.walle/payload_reader/1.1.6/a6cbd9b1d180ed2262375421350b5e8a2a0b553b/payload_reader-1.1.6-sources.jar!/com/meituan/android/walle/ChannelInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/channel">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/blockcanary/AppBlockCanaryContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/App.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/mvvm/LoginActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5688">
+          <caret line="263" column="10" selection-start-line="263" selection-start-column="10" selection-end-line="263" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/gradle/gradle-4.4/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata-core/2.0.0/c158207594782b42f3a2e08a5a029eb3319e4404/lifecycle-livedata-core-2.0.0-sources.jar!/androidx/lifecycle/LiveData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3624">
+          <caret line="175" column="73" selection-start-line="175" selection-start-column="68" selection-end-line="175" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/gradle/gradle-4.4/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.2.0-alpha02/d38861c5e1656c5eb1890b1fa149510f38aa5d42/lifecycle-common-2.2.0-alpha02-sources.jar!/androidx/lifecycle/LifecycleEventObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/gradle/gradle-4.4/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.2.0-alpha02/d38861c5e1656c5eb1890b1fa149510f38aa5d42/lifecycle-common-2.2.0-alpha02-sources.jar!/androidx/lifecycle/LifecycleObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/gradle/gradle-4.4/caches/modules-2/files-2.1/androidx.databinding/databinding-runtime/3.4.0/13d4d003fe74205953ebe4b074e9c2acb9ef4bf8/databinding-runtime-3.4.0-sources.jar!/androidx/databinding/ViewDataBinding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35640">
+          <caret line="1597" column="19" selection-start-line="1597" selection-start-column="19" selection-end-line="1597" selection-end-column="19" />
+          <folding>
+            <element signature="e#54018#54019#0" expanded="true" />
+            <element signature="e#54069#54070#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/gradle/gradle-4.4/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata-core/2.2.0-alpha02/6dcd7f31093b360c4a8bced748159e6fd237ba52/lifecycle-livedata-core-2.2.0-alpha02-sources.jar!/androidx/lifecycle/LiveData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="396" selection-start-line="396" selection-end-line="396" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="115" column="50" selection-start-line="115" selection-start-column="50" selection-end-line="115" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/TestJson.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/SimpleSingle.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/gradle/gradle-4.4/caches/transforms-2/files-2.1/d2eae204e0870f814cb9a8cf6b446b8d/jars/classes.jar!/com/wesmarclothing/kotlintools/kotlin/utils/AsyncKt.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/gradle/gradle-4.4/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.40/682cd7821872d1a3c1e8a3e6bdaabd17f2b71004/kotlin-stdlib-common-1.3.40-sources.jar!/kotlin/TextH.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1488">
+          <caret line="294" column="24" selection-start-line="294" selection-start-column="24" selection-end-line="294" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/gradle/gradle-4.4/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.40/682cd7821872d1a3c1e8a3e6bdaabd17f2b71004/kotlin-stdlib-common-1.3.40-sources.jar!/kotlin/text/Strings.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="268" lean-forward="true" selection-start-line="268" selection-end-line="268" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/gradle/gradle-4.4/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.40/682cd7821872d1a3c1e8a3e6bdaabd17f2b71004/kotlin-stdlib-common-1.3.40-sources.jar!/kotlin/util/Standard.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="94" column="8" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/gradle/gradle-4.4/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.40/682cd7821872d1a3c1e8a3e6bdaabd17f2b71004/kotlin-stdlib-common-1.3.40-sources.jar!/kotlin/contracts/ContractBuilder.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="755">
+          <caret line="149" column="18" selection-start-line="149" selection-start-column="18" selection-end-line="149" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/gradle/gradle-4.4/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.40/682cd7821872d1a3c1e8a3e6bdaabd17f2b71004/kotlin-stdlib-common-1.3.40-sources.jar!/kotlin/contracts/Effect.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/app/APPListActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="42" selection-start-line="42" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/gradle/gradle-4.4/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.40/7af6fd6b9293e80fc7408493a764858a7f66b022/kotlin-stdlib-1.3.40-sources.jar!/kotlin/internal/PlatformImplementations.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/gradle/gradle-4.4/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.41/785575d6b699a02527a4ad16f0972fa2c1ee583f/kotlin-stdlib-1.3.41-sources.jar!/kotlin/Comparable.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/gradle/gradle-4.4/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.41/785575d6b699a02527a4ad16f0972fa2c1ee583f/kotlin-stdlib-1.3.41-sources.jar!/kotlin/Collections.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="134" column="17" selection-start-line="134" selection-start-column="17" selection-end-line="134" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/gradle/gradle-4.4/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.41/785575d6b699a02527a4ad16f0972fa2c1ee583f/kotlin-stdlib-1.3.41-sources.jar!/kotlin/Boolean.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/wesmarclothing/jniproject/ExampleUnitTestTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/gradle/gradle-4.4/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.41/785575d6b699a02527a4ad16f0972fa2c1ee583f/kotlin-stdlib-1.3.41-sources.jar!/kotlin/io/Console.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="78" column="25" selection-start-line="78" selection-start-column="25" selection-end-line="78" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/gradle/gradle-4.4/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.40/682cd7821872d1a3c1e8a3e6bdaabd17f2b71004/kotlin-stdlib-common-1.3.40-sources.jar!/generated/_Collections.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="671" column="34" selection-start-line="671" selection-start-column="34" selection-end-line="671" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/wesmarclothing/jniproject/ExampleUnitTestTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="205" lean-forward="true" selection-start-line="205" selection-end-line="205" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wesmarclothing/jniproject/SimpleActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="195" lean-forward="true" selection-start-line="195" selection-end-line="195" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30294117" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

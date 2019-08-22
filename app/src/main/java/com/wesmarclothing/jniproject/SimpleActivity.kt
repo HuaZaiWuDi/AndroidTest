@@ -3,7 +3,10 @@ package com.wesmarclothing.jniproject
 import android.content.Context
 import android.os.Bundle
 import android.os.Environment
+import android.text.Editable
+import android.text.TextWatcher
 import android.view.View
+import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
 import com.meituan.robust.Patch
 import com.meituan.robust.PatchExecutor
@@ -13,6 +16,7 @@ import com.meituan.robust.patch.annotaion.Modify
 import com.wesmarclothing.jniproject.hotfix.HotFixManager
 import com.wesmarclothing.jniproject.robust.PatchManipulateImp
 import com.wesmarclothing.jniproject.utils.FileUtils
+import com.wesmarclothing.jniproject.utils.PreferenceDelegate
 import com.wesmarclothing.kotlintools.kotlin.utils.d
 import com.wesmarclothing.kotlintools.kotlin.utils.isDebug
 import com.wesmarclothing.kotlintools.kotlin.utils.toast
@@ -39,6 +43,8 @@ class SimpleActivity : AppCompatActivity() {
 //                "当前线程2：${Thread.currentThread().name}".d()
 //            }
 //        }
+
+        var userName: String by PreferenceDelegate(this, "key", "value", "db")
 
 
         RxPermissionsUtils.requestReadExternalStorage(this, object : onRequestPermissionsListener {
@@ -175,6 +181,12 @@ class SimpleActivity : AppCompatActivity() {
 
             }
         }
+
+        EditText(this)
+            .setChangedListener {
+                it.toString()
+            }
+
     }
 
 
@@ -183,5 +195,31 @@ class SimpleActivity : AppCompatActivity() {
             action(it)
         }
     }
+
+
+    inline fun EditText.setChangedListener(
+        crossinline textChanged: (s: CharSequence?, start: Int, before: Int, count: Int) -> Unit =
+            { charSequence: CharSequence?, i: Int, i1: Int, i2: Int -> }
+        , crossinline changeBefore: (s: CharSequence?, start: Int, count: Int, after: Int) -> Unit =
+            { charSequence: CharSequence?, i: Int, i1: Int, i2: Int -> }
+        , crossinline changeAfter: (s: Editable) -> Unit
+    ) {
+        this.addTextChangedListener(object : TextWatcher {
+            override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
+                //no-op
+                changeBefore(s, start, count, after)
+            }
+
+            override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
+                //no-op
+                textChanged(s, start, before, count)
+            }
+
+            override fun afterTextChanged(s: Editable) {
+                changeAfter(s)
+            }
+        })
+    }
+
 
 }

@@ -113,7 +113,7 @@ dependencies {
     //蓝牙库
     implementation 'com.clj.fastble:FastBleLib:2.3.2'
 //    implementation 'io.reactivex:rxkotlin:2.3.0'
-    implementation 'com.jackUtil:kotlintools:1.0.3'
+    implementation 'com.jackUtil:kotlintools:1.0.4'
 
     implementation 'com.alibaba:fastjson:1.1.70.android'
     implementation "org.jetbrains.kotlin:kotlin-reflect:1.3.31"
@@ -175,6 +175,17 @@ dependencies {
 //https://github.com/markzhai/AndroidPerformanceMonitor
     implementation 'com.github.markzhai:blockcanary-android:1.5.0'
 
+    implementation 'com.meituan.android.walle:library:1.1.6'
+    implementation 'com.hyman:flowlayout-lib:1.1.2'
+    //https://github.com/manolovn/trianglify
+    implementation 'com.manolovn:trianglify:1.1.0'
+    //https://github.com/Yalantis/Horizon
+    implementation 'com.yalantis:eqwaves:1.0.1'
+
+    //Barebone Android
+    implementation 'org.kodein.di:kodein-di-generic-jvm:6.3.3'
+    implementation 'org.kodein.di:kodein-di-framework-android-x:6.3.3'
+
 }
 
 //https://github.com/keepLove/JiaguPlugin
@@ -187,6 +198,19 @@ jiagu {
     jiaGuDir = "E:\\360Downloads\\360jiagu\\jiagu"
     username = "15323754617"
     password = "zskj123456"
-    enable = true
+    enable = false
     debug = false
+}
+
+
+//美团walle多渠道
+apply plugin: 'walle'
+
+walle {
+    // 指定渠道包的输出路径
+    apkOutputFolder = new File("${project.buildDir}/outputs/channels")
+    // 定制渠道包的APK的文件名称
+    apkFileNameFormat = '${flavorName}-${channel}-${buildType}-v${versionName}-${versionCode}-${buildTime}.apk'
+    // 渠道配置文件
+    channelFile = new File("${project.getProjectDir()}/channel")
 }

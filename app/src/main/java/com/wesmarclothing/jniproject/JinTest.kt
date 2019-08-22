@@ -28,6 +28,10 @@ class JinTest(context: Context) {
         this.context = context.applicationContext
     }
 
+    fun test(){
+
+    }
+
     companion object {
 
         @JvmStatic
@@ -41,6 +45,12 @@ class JinTest(context: Context) {
         private fun JsonTest() {
 
         }
+
+        @JvmStatic
+        fun main() {
+
+        }
+
     }
 
 

@@ -17,6 +17,10 @@ class SimpleSingle(val name: String) : Observer {
     override fun update(o: Observable?, arg: Any?) {
 //        name.d("arg：$arg")
         System.out.println("接收通知arg：$arg-----name：$name")
+
+
+
+
     }
 
 
